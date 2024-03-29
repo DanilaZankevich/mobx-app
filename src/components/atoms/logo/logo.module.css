@@ -1,0 +1,23 @@
+.icon {
+  background-color: white;
+  border-radius: 50%;
+  color: white;
+  border: white solid 15px;
+}
+
+.logo {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.logoText {
+  color: white;
+  font-size: 23px;
+  -webkit-text-stroke: 1px #181818;
+  padding-left: 5px;
+}
+
+/*# sourceMappingURL=logo.module.css.map */

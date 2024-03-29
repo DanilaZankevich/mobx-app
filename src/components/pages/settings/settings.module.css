@@ -1,0 +1,87 @@
+.dropZone {
+  border: 2px solid #d2d2d2;
+  border-radius: 3px;
+  background-color: #9a9a9a;
+}
+
+.settings {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  border-radius: 5px;
+  width: auto;
+  -webkit-text-stroke: 0.5px #181818;
+}
+
+.container div {
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #5b5b5b;
+  padding: 10px 40px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings input {
+  border: none;
+}
+
+.saveButton {
+  background-color: #cccccc;
+  border: black 3px solid;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 0 15px 15px 0;
+  color: black;
+}
+
+.saveButton:hover {
+  box-shadow: #cccccc 0 0 3px 3px;
+}
+
+.setField {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.signOutButton {
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #5b5b5b;
+  padding: 10px 40px;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  transition: 0.2s;
+}
+
+.signOutButton:hover {
+  box-shadow: #b00000 0 0 2px 2px;
+  transition: 0.5s;
+  border: 2px solid red;
+  color: red;
+}
+
+.container {
+  padding: 20px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=settings.module.css.map */

@@ -1,0 +1,65 @@
+.account {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #494949;
+  height: 100%;
+  padding: 100px;
+  align-items: center;
+}
+
+.miniProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 50px;
+  border: 3px solid black;
+  box-shadow: #0a0a0a 0 0 4px 4px;
+  color: white;
+  font-size: 25px;
+  -webkit-text-stroke: 0.5px #181818;
+}
+
+.subHeader {
+  color: white;
+  font-size: 25px;
+  -webkit-text-stroke: 0.5px #181818;
+  margin: 50px;
+}
+
+.miniProfile img {
+  border: 3px solid black;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+.favoriteList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.filmUnit {
+  display: flex;
+  flex-direction: row;
+  border: black solid 5px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: #2a2a2a 0 0 10px 10px;
+}
+
+.filmUnit:hover {
+  box-shadow: #e8e8e8 0 0 10px 10px;
+}
+
+.overview {
+  margin-left: 50px;
+  color: white;
+  font-size: 25px;
+  -webkit-text-stroke: 0.5px #181818;
+}
+
+/*# sourceMappingURL=account.module.css.map */
